@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Personale LogIn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://designer.igniteui.com/packages/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="http://designer.igniteui.com/css/themes/infragistics/infragistics.theme.css">
+    <link rel="stylesheet" href="http://designer.igniteui.com/css/structure/infragistics.css">
+    <!--
+        Update the Ignite UI script references to your licensed copies before deploying.
+        Ignite UI License: http://www.infragistics.com/legal/license/ultimate/
+    -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <script src="http://designer.igniteui.com/js/infragistics.core.js"></script>
+    <script src="http://designer.igniteui.com/js/infragistics.lob.js"></script>
+    <!-- You may remove the datasources.js script if you are not using Designer sample data. -->
+    <script src="http://designer.igniteui.com/js/datasources.js"></script>
+    <script id="textarea1">
+        $(document).ready(function () {
+
+        });
+    </script>
+    <style>
+        body {
+            background-color: #D7FBFF;
+        }
+        <!-- ved at tilføje style og body kan man ændre baggrunds farve -->
+    </style>
 </head>
 <body>
-
+    <h1 id="heading1" style="color:#000000;"> <b> Personale </b> </h1>
+    <div id="container1">
+        <textarea id="textarea1">autorisationsID:</textarea>
+        <input id="input1"/>
+</div>
+    <div id="container2">
+        <textarea id="textarea1">Adgangskode:</textarea>
+        <input id="input2"/>
+</div>
+    <div id="container3">
+        <button id="button1">Log ind</button>
+</div>
 </body>
 </html>
