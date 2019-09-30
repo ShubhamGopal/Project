@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Velkommen</title>
+    <title>Log Ind</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://designer.igniteui.com/packages/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="http://designer.igniteui.com/css/themes/infragistics/infragistics.theme.css">
@@ -19,7 +18,7 @@
     <script src="http://designer.igniteui.com/js/infragistics.lob.js"></script>
     <!-- You may remove the datasources.js script if you are not using Designer sample data. -->
     <script src="http://designer.igniteui.com/js/datasources.js"></script>
-    <script id="code">
+    <script id="textarea1">
         $(document).ready(function () {
 
         });
@@ -32,23 +31,17 @@
     </style>
 </head>
 <body>
-<h1 id="heading1" style="color:#000000;"> <b> Hospital 6 </b> </h1>
-<!--Hej Shubham, jeg har lavet en kommentar. I stedet for at klone frem og tilbage, så skal vi trykke "Update Project" ved Git, (BLå pil ved flueben) -->
+<h1 id="heading1" style="color:#000000;"> <b> Borger </b> </h1>
 <div id="container1">
+    <textarea id="textarea1">CPR-nummer:</textarea>
+    <input id="input1"/>
 </div>
 <div id="container2">
+    <textarea id="textarea1">Adgangskode:</textarea>
+    <input id="input2"/>
 </div>
-<div id="row1" class="row">
-    <div class="col-md-4">
-    </div>
-    <div class="col-md-4">
-        <button id="button1" style="color:#000000;" > <font size="+2">Borger </font> </button>
-        <!-- font size gør man kan ændre størrelsen på knappen, ændre på begge knapper ved at tilføje funktion til den ene -->
-        <button id="button2" style="color:#000000;" > <font size="+2"> Sundhedspersonale </font> </button>
-    </div>
-    <div class="col-md-4">
-    </div>
+<div id="container3">
+    <button id="button1">Log ind</button>
 </div>
 </body>
 </html>
-
