@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bekræftelse</title>
-    <head>
+    <title>ÆndreTid</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="http://designer.igniteui.com/packages/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="http://designer.igniteui.com/css/themes/infragistics/infragistics.theme.css">
@@ -32,12 +31,32 @@
         </style>
     </head>
 <body>
-<h2 style="margin:10px;" id="heading1"> <b> #Patientnavn </b></h2>
+
+<h2 style="margin:10px;" id="heading1"> <b> #Patientsnavn </b> </h2>
 <div id="container1">
-    <h3 style="margin:10px;" id="heading2"><b><i>Din tid er blevet bekræftet</i></b></h3>
-</div>		<button style="margin:10px;" id="button2"><font size="3">Få bekræftelse tilsendt på SMS</font></button>
-<div id="container2">
-    <button style="margin:10px;" id="button4"><font size="5">Tilbage til oversigt</font></button>
+    <p style="margin:10px;" id="text1"><b>Ændre tidspunkt eller aflys ved at vælge tid og trykke knappen</b> </p>
+
+</div>
+<div id="container3">
+    <p style="margin:10px;" id="text2">Vælg din tid</p>
+</div>
+<div id="container4"> <font size="+1">
+    <select style="margin:10px;">
+        <option value="Tid1">Tid1</option>
+        <option value="Tid2">Tid2</option>
+        <option value="Tid3">Tid3</option>
+        <option value="tid4">Tid4</option>
+    </select>
+</font>
+</div>
+<div style="margin:10px;" id="container5">
+    <a href="OversigtBorger.html">
+    <button id="button1">Aflys tid </button>
+    </a>
+    <a href="Tidsbestilling.html">
+    <button style="margin:20px;" id="button2">Ændre eksisterende tid</button>
+    </a>
+    <!--Når der trykkes ændre slettes tiden også, man bliver bare viderestillet til Tidsbestlling siden -->
 </div>
 
 </body>

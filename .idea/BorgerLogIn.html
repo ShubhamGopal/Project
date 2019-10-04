@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Personale LogIn</title>
+    <title>Log Ind</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://designer.igniteui.com/packages/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="http://designer.igniteui.com/css/themes/infragistics/infragistics.theme.css">
@@ -31,17 +31,23 @@
     </style>
 </head>
 <body>
-    <h1 id="heading1" style="color:#000000;"> <b> Personale </b> </h1>
-    <div id="container1">
-        <textarea id="textarea1">autorisationsID:</textarea>
-        <input id="input1"/>
+<h1 id="heading1" style="color:#000000;"> <b> Borger </b> </h1>
+<div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+    <h5 id="heading4">Navn:</h5>
+    <input id="input1" placeholder="Indtast Navn" name="Navn" required/>
+    </form>
 </div>
-    <div id="container2">
-        <textarea id="textarea1">Adgangskode:</textarea>
-        <input id="input2"/>
+<div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+    <h5 id="heading5">Adgangskode:</h5>
+    <input id="input2" type="password" placeholder="Indtast Password" name="Password" required/>
+    </form>
 </div>
-    <div id="container3">
-        <button id="button1">Log ind</button>
+<div id="container3">
+    <a href="OversigtBorger.html">
+    <button id="button1" type="submit">Log ind</button>
+    </a>
 </div>
 </body>
 </html>
