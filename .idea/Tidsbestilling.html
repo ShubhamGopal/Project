@@ -24,15 +24,16 @@
                 $("#datePicker1").igDatePicker({
                     dateDisplayFormat: "dd/MM/yyyy",
                     dataMode: "displayModeText"
-                });				$("#timePicker1").igTimePicker({
+                });
+                $("#timePicker1").igTimePicker({
                     timeInputFormat: "HH:mm",
                     itemsDelta: {
                         minutes: 15
                     },
                     dropDownOnReadOnly: false,
                     buttonType: "dropdown",
-                    "maxValue": new Date(),
-                    "minValue": new Date(),
+                    "maxValue": "17:45",
+                    "minValue": "08:00",
                     toUpper: false
                 });
 
