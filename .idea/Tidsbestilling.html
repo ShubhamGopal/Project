@@ -22,8 +22,9 @@
         <script id="code">
             $(document).ready(function () {
                 $("#datePicker1").igDatePicker({
-                    dateDisplayFormat: "dd/MM/yyyy",
-                    dataMode: "displayModeText"
+                    dateDisplayFormat: "d/M/yyyy",
+                    dataMode: "displayModeText",
+                    minDate: "dateToday",
                 });
                 $("#timePicker1").igTimePicker({
                     timeInputFormat: "HH:mm",
@@ -45,7 +46,9 @@
         <style>
             body {
                 background-color: #D7FBFF;
+                margin:10px;
             }
+
         </style>
         <!--ved at tilføje style og body kan man ændre baggrunds farve-->
     </head>
