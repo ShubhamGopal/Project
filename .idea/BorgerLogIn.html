@@ -19,10 +19,11 @@
     <!-- You may remove the datasources.js script if you are not using Designer sample data. -->
     <script src="http://designer.igniteui.com/js/datasources.js"></script>
 
-    <script id="textarea1">
-        $(document).ready(function () {
-
-        });
+    <script>
+        function passvalues() {
+            var navn = document.getElementById("input1").value;
+            localStorage.setItem("textvalue",navn);
+        }
     </script>
     <style>
         body {

@@ -27,13 +27,17 @@
             body {
                 background-color: #D7FBFF;
                 margin:10px;
-            <!-- ved at tilføje style og body kan man ændre baggrunds farve -->
             }
         </style>
     </head>
 <body>
-<h1> <p align="center"> <b> Velkommen #BrugerNavn </b> </p>
+<h1 align="center"> <b> Velkommen <span id="result"></span>
+    <script>
+    document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+    </script>
+</b>
 </h1>
+
 <div id="container2"> <p align="center">
     <a href="Tidsbestilling.html">
     <button id="button1"> <font size="+2">Tidsbestilling </font> </button>
